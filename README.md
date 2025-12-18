@@ -27,9 +27,6 @@ Node.js · Java (Paper) · REST APIs
 
 ## 🌐 Connect with Me
 
-<a href="https://github.com/AREKKUZZERA">
-  <img src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=flat-square&logo=github&logoColor=white" />
-</a>
 <a href="https://www.youtube.com/@arekkuzzera">
   <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?&style=flat-square&logo=youtube&logoColor=white" />
 </a>
