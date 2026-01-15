@@ -24,14 +24,8 @@ Interfaces · Design systems · Animations
 ## GitHub Stats
 
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=AREKKUZZERA&show_icons=true&theme=dark&hide_border=true&cache_seconds=21600"
-    height="165"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=AREKKUZZERA&layout=compact&theme=dark&hide_border=true&cache_seconds=21600"
-    height="165"
-  />
+  <img src="https://github-readme-stats.vercel.app/api?username=AREKKUZZERA&show_icons=true&theme=dark&hide_border=true&cache_seconds=43200" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AREKKUZZERA&layout=compact&theme=dark&hide_border=true&cache_seconds=43200" height="165" />
 </p>
 
 ---
