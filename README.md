@@ -21,7 +21,8 @@ Node.js · Java (Paper) · REST APIs
 
 ## 🔥 GitHub Stats
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=AREKKUZZERA&show_icons=true&theme=dark)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AREKKUZZERA&show_icons=true&theme=dark&cache_seconds=21600)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AREKKUZZERA&layout=compact&theme=dark&cache_seconds=21600)
 
 ---
 
