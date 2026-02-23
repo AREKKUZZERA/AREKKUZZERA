@@ -15,7 +15,7 @@
 - 🎨 I build **modern interactive interfaces**
 - ⚛️ Passionate about **React ecosystem & animations**
 - 🧩 Focused on **design systems & clean architecture**
-- 🚀 Always improving UX & performance
+- 🚀 Always improving UX, motion & visual quality
 
 ---
 
@@ -41,12 +41,34 @@
 
 ---
 
-### 🎯 Focus Areas
+### 🎯 Design · Motion · 3D
 
 <p align="left">
+  <!-- UI/UX -->
   <img src="https://skillicons.dev/icons?i=figma" width="40" height="40" />
-  <img src="https://skillicons.dev/icons?i=css" width="40" height="40" />
+  
+  <!-- Adobe -->
+  <img src="https://skillicons.dev/icons?i=ps" width="40" height="40" />
+  <img src="https://skillicons.dev/icons?i=ai" width="40" height="40" />
+  <img src="https://skillicons.dev/icons?i=pr" width="40" height="40" />
+  <img src="https://skillicons.dev/icons?i=ae" width="40" height="40" />
+  <img src="https://skillicons.dev/icons?i=xd" width="40" height="40" />
+  
+  <!-- 3D -->
+  <img src="https://skillicons.dev/icons?i=blender" width="40" height="40" />
 </p>
+
+**UI/UX & Design**  
+Figma · Adobe XD  
+
+**Photo & Graphics**  
+Photoshop · Illustrator · Lightroom  
+
+**Video & Motion**  
+Premiere Pro · After Effects · Media Encoder  
+
+**3D & Sculpting**  
+Blender · ZBrush · 3D-Coat  
 
 ---
 
