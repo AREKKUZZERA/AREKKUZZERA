@@ -1,7 +1,11 @@
 <h1 align="center">👋 Hi, I'm <b>AREKKUZZERA</b></h1>
 
 <p align="center">
-  <i>Frontend Developer · UI/UX Enthusiast · Interface Architect</i>
+  <i>Creative Frontend Engineer · UI Architect · Motion Enthusiast</i>
+</p>
+
+<p align="center">
+  ⚡ Code meets Design meets Sound.
 </p>
 
 <div align="center">
@@ -13,9 +17,10 @@
 ## ✨ About Me
 
 - 🎨 I build **modern interactive interfaces**
-- ⚛️ Passionate about **React ecosystem & animations**
+- ⚛️ Passionate about **React ecosystem & motion-driven UI**
 - 🧩 Focused on **design systems & clean architecture**
-- 🚀 Always improving UX, motion & visual quality
+- 🚀 Always improving UX, performance & visual depth
+- 🎵 Exploring sound through remixing & creative production
 
 ---
 
@@ -27,8 +32,9 @@
   <img src="https://skillicons.dev/icons?i=react" width="40" height="40" />
   <img src="https://skillicons.dev/icons?i=ts" width="40" height="40" />
   <img src="https://skillicons.dev/icons?i=vite" width="40" height="40" />
-  <img src="https://skillicons.dev/icons?i=js" width="40" height="40" />
 </p>
+
+React · TypeScript · Vite · MobX · Framer Motion  
 
 ---
 
@@ -39,22 +45,19 @@
   <img src="https://skillicons.dev/icons?i=java" width="40" height="40" />
 </p>
 
+Node.js · Java (Paper) · REST APIs  
+
 ---
 
 ### 🎯 Design · Motion · 3D
 
 <p align="left">
-  <!-- UI/UX -->
   <img src="https://skillicons.dev/icons?i=figma" width="40" height="40" />
-  
-  <!-- Adobe -->
   <img src="https://skillicons.dev/icons?i=ps" width="40" height="40" />
   <img src="https://skillicons.dev/icons?i=ai" width="40" height="40" />
   <img src="https://skillicons.dev/icons?i=pr" width="40" height="40" />
   <img src="https://skillicons.dev/icons?i=ae" width="40" height="40" />
   <img src="https://skillicons.dev/icons?i=xd" width="40" height="40" />
-  
-  <!-- 3D -->
   <img src="https://skillicons.dev/icons?i=blender" width="40" height="40" />
 </p>
 
@@ -69,6 +72,20 @@ Premiere Pro · After Effects · Media Encoder
 
 **3D & Sculpting**  
 Blender · ZBrush · 3D-Coat  
+
+---
+
+## 🎵 Music
+
+⚡ Remixing & bootlegging other artists’ work  
+🎛 Creative reinterpretation & energetic sound  
+🎹 Occasionally writing original tracks for fun  
+
+<p align="center">
+  <a href="https://soundcloud.com/arekkuzzera">
+    <img src="https://img.shields.io/badge/Producer_Mode-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
@@ -87,6 +104,6 @@ Blender · ZBrush · 3D-Coat
 
 <div align="center">
   
-  ⚡ *"Design is not just how it looks — it's how it works."*
+  ⚡ *Design is not just how it looks — it's how it works.*
 
 </div>
