@@ -4,10 +4,6 @@
   <i>Creative Frontend Engineer · UI Architect · Motion Enthusiast</i>
 </p>
 
-<p align="center">
-  ⚡ Code meets Design meets Sound.
-</p>
-
 <div align="center">
   <img src="https://visitor-badge.vercel.app/badge?page_id=arekkuzzera.profile&right_color=8A2BE2" />
 </div>
