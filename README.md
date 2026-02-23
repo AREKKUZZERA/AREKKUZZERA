@@ -30,12 +30,6 @@
   <img src="https://skillicons.dev/icons?i=js" width="40" height="40" />
 </p>
 
-- React  
-- TypeScript  
-- Vite  
-- MobX  
-- Framer Motion  
-
 ---
 
 ### 🔧 Backend & APIs
@@ -44,10 +38,6 @@
   <img src="https://skillicons.dev/icons?i=nodejs" width="40" height="40" />
   <img src="https://skillicons.dev/icons?i=java" width="40" height="40" />
 </p>
-
-- Node.js  
-- Java (Paper)  
-- REST APIs  
 
 ---
 
@@ -58,11 +48,6 @@
   <img src="https://skillicons.dev/icons?i=css" width="40" height="40" />
 </p>
 
-- Interfaces  
-- Design Systems  
-- Motion & Micro-interactions  
-- UI/UX  
-
 ---
 
 ## 📊 GitHub Stats
@@ -72,16 +57,6 @@
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=AREKKUZZERA&show_icons=true&theme=tokyonight&hide_border=true" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AREKKUZZERA&layout=compact&theme=tokyonight&hide_border=true" />
 
-</div>
-
----
-
-## 🎵 Listen with Me
-
-<div align="center">
-  <a href="https://soundcloud.com/arekkuzzera">
-    <img src="https://img.shields.io/badge/SoundCloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white"/>
-  </a>
 </div>
 
 ---
