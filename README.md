@@ -1,35 +1,106 @@
-<h1 align="center">
-  Hi there, I'm <b>AREKKUZZERA</b>
-</h1>
+<h1 align="center">👋 Hi, I'm <b>AREKKUZZERA</b></h1>
 
 <p align="center">
-  <i>Frontend Developer · UI/UX</i>
+  <i>Frontend Developer · UI/UX Enthusiast · Interface Architect</i>
 </p>
 
----
-
-## Stack
-
-**Frontend**  
-React · TypeScript · Vite · MobX · Framer Motion
-
-**Backend & APIs**  
-Node.js · Java (Paper) · REST APIs
-
-**Focus**  
-Interfaces · Design systems · Animations
+<div align="center">
+  <img src="https://visitor-badge.vercel.app/badge?page_id=arekkuzzera.profile&right_color=8A2BE2" />
+</div>
 
 ---
 
-## Connect with Me
+## ✨ About Me
+
+- 🎨 I build **modern interactive interfaces**
+- ⚛️ Passionate about **React ecosystem & animations**
+- 🧩 Focused on **design systems & clean architecture**
+- 🚀 Always improving UX & performance
+
+---
+
+## 🛠️ Tech Stack
+
+### 💻 Frontend
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react" width="40" height="40" />
+  <img src="https://skillicons.dev/icons?i=ts" width="40" height="40" />
+  <img src="https://skillicons.dev/icons?i=vite" width="40" height="40" />
+  <img src="https://skillicons.dev/icons?i=js" width="40" height="40" />
+</p>
+
+- React  
+- TypeScript  
+- Vite  
+- MobX  
+- Framer Motion  
+
+---
+
+### 🔧 Backend & APIs
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nodejs" width="40" height="40" />
+  <img src="https://skillicons.dev/icons?i=java" width="40" height="40" />
+</p>
+
+- Node.js  
+- Java (Paper)  
+- REST APIs  
+
+---
+
+### 🎯 Focus Areas
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=figma" width="40" height="40" />
+  <img src="https://skillicons.dev/icons?i=css" width="40" height="40" />
+</p>
+
+- Interfaces  
+- Design Systems  
+- Motion & Micro-interactions  
+- UI/UX  
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AREKKUZZERA&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AREKKUZZERA&layout=compact&theme=tokyonight&hide_border=true" />
+
+</div>
+
+---
+
+## 🎵 Listen with Me
+
+<div align="center">
+  <a href="https://soundcloud.com/arekkuzzera">
+    <img src="https://img.shields.io/badge/SoundCloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white"/>
+  </a>
+</div>
+
+---
+
+## 🌐 Connect with Me
 
 <p align="center">
   <a href="https://www.youtube.com/@arekkuzzera">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" />
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
   </a>
   <a href="https://soundcloud.com/arekkuzzera">
-    <img src="https://img.shields.io/badge/SoundCloud-FF5500?style=flat-square&logo=soundcloud&logoColor=white" />
+    <img src="https://img.shields.io/badge/SoundCloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" />
   </a>
 </p>
 
 ---
+
+<div align="center">
+  
+  ⚡ *"Design is not just how it looks — it's how it works."*
+
+</div>
