@@ -1,9 +1,5 @@
 <h1 align="center">👋 Hi, I'm <b>AREKKUZZERA</b></h1>
 
-<p align="center">
-  <i>Creative Frontend Engineer · UI Architect · Motion Enthusiast</i>
-</p>
-
 <div align="center">
   <img src="https://visitor-badge.vercel.app/badge?page_id=arekkuzzera.profile&right_color=8A2BE2" />
 </div>
@@ -81,11 +77,3 @@ Blender · ZBrush · 3D-Coat
     <img src="https://img.shields.io/badge/SoundCloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" />
   </a>
 </p>
-
----
-
-<div align="center">
-  
-  ⚡ *Design is not just how it looks — it's how it works.*
-
-</div>
