@@ -71,20 +71,6 @@ Blender · ZBrush · 3D-Coat
 
 ---
 
-## 🎵 Music
-
-⚡ Remixing & bootlegging other artists’ work  
-🎛 Creative reinterpretation & energetic sound  
-🎹 Occasionally writing original tracks for fun  
-
-<p align="center">
-  <a href="https://soundcloud.com/arekkuzzera">
-    <img src="https://img.shields.io/badge/Producer_Mode-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white"/>
-  </a>
-</p>
-
----
-
 ## 🌐 Connect with Me
 
 <p align="center">
