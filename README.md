@@ -77,7 +77,6 @@ Blender · ZBrush · 3D-Coat
 
 ## 🎛️ Producer Card
 
-<table>
   <tr>
     <td width="52%" valign="top">
       <h3>🎵 Music</h3>
@@ -113,7 +112,6 @@ Blender · ZBrush · 3D-Coat
       </p>
     </td>
   </tr>
-</table>
 
 ---
 
