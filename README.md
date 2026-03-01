@@ -77,39 +77,50 @@ Blender · ZBrush · 3D-Coat
 
 ## 🎛️ Producer Card
 
-    <td width="52%" valign="top">
-      <h3>🎵 Music</h3>
+## 🎛️ Producer Card
 
-      <p>
-        I mainly <b>remix & bootleg</b> other artists' work,<br/>
-        but I occasionally write my own music for fun.
-      </p>
+<table>
+<tr>
+<td width="52%" valign="top">
 
-      <p>
-        <b>DAW:</b>
-        <img src="./assets/icons/flstudio.svg" width="22" height="22" style="vertical-align: -4px;" />
-        <span>FL Studio</span>
-      </p>
+<h3>🎵 Music</h3>
 
-      <p>
-        <b>Focus:</b> remixing · bootlegs · energetic edits · original ideas
-      </p>
+<p>
+I mainly <b>remix & bootleg</b> other artists' work,<br/>
+but I occasionally write my own music for fun.
+</p>
 
-      <p>
-        <a href="https://soundcloud.com/arekkuzzera">
-          <img src="https://img.shields.io/badge/SoundCloud-Follow-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" />
-        </a>
-      </p>
-    </td>
+<p>
+<b>DAW:</b>
+<img src="./assets/icons/flstudio.svg" width="22" height="22" style="vertical-align: -4px;" />
+FL Studio
+</p>
 
-    <td width="48%" valign="top">
-      <h3>📊 Insights</h3>
-      <p><b>1.7M+</b> plays (since 2023)</p>
+<p>
+<b>Focus:</b> remixing · bootlegs · energetic edits · original ideas
+</p>
 
-      <p align="center">
-        <img src="./assets/images/soundcloud-insights.png" alt="SoundCloud Insights" width="100%" />
-      </p>
-    </td>
+<p>
+<a href="https://soundcloud.com/arekkuzzera">
+<img src="https://img.shields.io/badge/SoundCloud-Follow-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" />
+</a>
+</p>
+
+</td>
+
+<td width="48%" valign="top">
+
+<h3>📊 Insights</h3>
+
+<p><b>1.7M+</b> plays (since 2023)</p>
+
+<p align="center">
+<img src="./assets/images/soundcloud-insights.png" width="100%" />
+</p>
+
+</td>
+</tr>
+</table>
 
 ---
 
