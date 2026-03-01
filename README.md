@@ -1,5 +1,13 @@
 <h1 align="center">👋 Hi, I'm <b>AREKKUZZERA</b></h1>
 
+<p align="center">
+  <i>Creative Frontend Engineer · UI Architect · Motion Enthusiast</i>
+</p>
+
+<p align="center">
+  ⚡ Code meets Design meets Sound.
+</p>
+
 <div align="center">
   <img src="https://visitor-badge.vercel.app/badge?page_id=arekkuzzera.profile&right_color=8A2BE2" />
 </div>
@@ -21,59 +29,91 @@
 ### 💻 Frontend
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=react" width="40" height="40" />
-  <img src="https://skillicons.dev/icons?i=ts" width="40" height="40" />
-  <img src="https://skillicons.dev/icons?i=vite" width="40" height="40" />
+  <img src="https://skillicons.dev/icons?i=react" width="42" height="42" />
+  <img src="https://skillicons.dev/icons?i=ts" width="42" height="42" />
+  <img src="https://skillicons.dev/icons?i=vite" width="42" height="42" />
 </p>
 
-React · TypeScript · Vite · MobX · Framer Motion  
+React · TypeScript · Vite · MobX · Framer Motion
 
 ---
 
 ### 🔧 Backend & APIs
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=nodejs" width="40" height="40" />
-  <img src="https://skillicons.dev/icons?i=java" width="40" height="40" />
+  <img src="https://skillicons.dev/icons?i=nodejs" width="42" height="42" />
+  <img src="https://skillicons.dev/icons?i=java" width="42" height="42" />
 </p>
 
-Node.js · Java (Paper) · REST APIs  
+Node.js · Java (Paper) · REST APIs
 
 ---
 
 ### 🎯 Design · Motion · 3D
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=figma" width="40" height="40" />
-  <img src="https://skillicons.dev/icons?i=ps" width="40" height="40" />
-  <img src="https://skillicons.dev/icons?i=ai" width="40" height="40" />
-  <img src="https://skillicons.dev/icons?i=pr" width="40" height="40" />
-  <img src="https://skillicons.dev/icons?i=ae" width="40" height="40" />
-  <img src="https://skillicons.dev/icons?i=xd" width="40" height="40" />
-  <img src="https://skillicons.dev/icons?i=blender" width="40" height="40" />
+  <img src="https://skillicons.dev/icons?i=figma" width="42" height="42" />
+  <img src="https://skillicons.dev/icons?i=ps" width="42" height="42" />
+  <img src="https://skillicons.dev/icons?i=ai" width="42" height="42" />
+  <img src="https://skillicons.dev/icons?i=pr" width="42" height="42" />
+  <img src="https://skillicons.dev/icons?i=ae" width="42" height="42" />
+  <img src="https://skillicons.dev/icons?i=xd" width="42" height="42" />
+  <img src="https://skillicons.dev/icons?i=blender" width="42" height="42" />
 </p>
 
 **UI/UX & Design**  
-Figma · Adobe XD  
+Figma · Adobe XD
 
 **Photo & Graphics**  
-Photoshop · Illustrator · Lightroom  
+Photoshop · Illustrator · Lightroom
 
 **Video & Motion**  
-Premiere Pro · After Effects · Media Encoder  
+Premiere Pro · After Effects · Media Encoder
 
 **3D & Sculpting**  
-Blender · ZBrush · 3D-Coat  
+Blender · ZBrush · 3D-Coat
 
 ---
 
-### 🎵 Music Production
+## 🎛️ Producer Card
 
-<p align="left">
-  <img src="https://img.shields.io/badge/FL%20Studio-FF6A00?style=flat-square&logo=flstudio&logoColor=white" />
-</p>
+<table>
+  <tr>
+    <td width="52%" valign="top">
+      <h3>🎵 Music</h3>
 
-FL Studio · Remixing · Bootlegs · Original Tracks  
+      <p>
+        I mainly <b>remix & bootleg</b> other artists' work,<br/>
+        but I occasionally write my own music for fun.
+      </p>
+
+      <p>
+        <b>DAW:</b>
+        <img src="./assets/icons/flstudio.svg" width="22" height="22" style="vertical-align: -4px;" />
+        <span>FL Studio</span>
+      </p>
+
+      <p>
+        <b>Focus:</b> remixing · bootlegs · energetic edits · original ideas
+      </p>
+
+      <p>
+        <a href="https://soundcloud.com/arekkuzzera">
+          <img src="https://img.shields.io/badge/SoundCloud-Follow-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" />
+        </a>
+      </p>
+    </td>
+
+    <td width="48%" valign="top">
+      <h3>📊 Insights</h3>
+      <p><b>1.7M+</b> plays (since 2023)</p>
+
+      <p align="center">
+        <img src="./assets/images/soundcloud-insights.png" alt="SoundCloud Insights" width="100%" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -90,13 +130,6 @@ FL Studio · Remixing · Bootlegs · Original Tracks
 
 ---
 
-## 🎧 SoundCloud Insights
-
-> 1.7M+ plays since 2023
-
-<p align="center">
-  <img src="soundcloud-insights.png" width="900"/>
-</p>
-
----
-
+<div align="center">
+  ⚡ <i>Design is not just how it looks — it's how it works.</i>
+</div>
