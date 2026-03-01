@@ -67,18 +67,28 @@ Blender · ZBrush · 3D-Coat
 
 ---
 
+### 🎵 Music Production
+
+<p align="left">
+  <img src="https://img.shields.io/badge/FL%20Studio-FF6A00?style=flat-square&logo=flstudio&logoColor=white" />
+</p>
+
+FL Studio · Remixing · Bootlegs · Original Tracks  
+
+---
+
 ## 🌐 Connect with Me
 
 <p align="center">
   <a href="https://www.youtube.com/@arekkuzzera">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
   </a>
-    <a href="https://soundcloud.com/arekkuzzera">
+  <a href="https://soundcloud.com/arekkuzzera">
     <img src="https://img.shields.io/badge/SoundCloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" />
   </a>
 </p>
 
-  ---
+---
 
 ## 🎧 SoundCloud Insights
 
