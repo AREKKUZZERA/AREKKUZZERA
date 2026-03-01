@@ -77,8 +77,6 @@ Blender · ZBrush · 3D-Coat
 
 ## 🎛️ Producer Card
 
-## 🎛️ Producer Card
-
 <table>
 <tr>
 <td width="52%" valign="top">
