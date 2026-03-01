@@ -81,7 +81,7 @@ Blender · ZBrush · 3D-Coat
 > 1.7M+ plays since 2016
 
 <p align="center">
-  <img src="./assets/soundcloud-insights.png" width="900"/>
+  <img src="soundcloud-insights.png" width="900"/>
 </p>
 
 ---
