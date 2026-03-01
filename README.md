@@ -78,7 +78,7 @@ Blender · ZBrush · 3D-Coat
 
 ## 🎧 SoundCloud Insights
 
-> 1.7M+ plays since 2016
+> 1.7M+ plays since 2023
 
 <p align="center">
   <img src="soundcloud-insights.png" width="900"/>
