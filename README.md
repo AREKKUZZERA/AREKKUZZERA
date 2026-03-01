@@ -77,5 +77,5 @@ Blender · ZBrush · 3D-Coat
     <img src="https://img.shields.io/badge/SoundCloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" />
   </a>
 </p>
-![Uploading {D9DA3D14-AC86-4BB0-8ECD-5395B6B28571}.png…]()
+![photo_2026-03-02_01-50-01](https://github.com/user-attachments/assets/fb1bfdfc-a817-4634-9bec-887d0fc8378b)
 
