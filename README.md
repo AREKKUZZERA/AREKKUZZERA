@@ -1,13 +1,5 @@
 <h1 align="center">👋 Hi, I'm <b>AREKKUZZERA</b></h1>
 
-<p align="center">
-  <i>Creative Frontend Engineer · UI Architect · Motion Enthusiast</i>
-</p>
-
-<p align="center">
-  ⚡ Code meets Design meets Sound.
-</p>
-
 <div align="center">
   <img src="https://visitor-badge.vercel.app/badge?page_id=arekkuzzera.profile&right_color=8A2BE2" />
 </div>
@@ -121,7 +113,6 @@ FL Studio
 </table>
 
 ---
-
 ## 🌐 Connect with Me
 
 <p align="center">
@@ -131,10 +122,7 @@ FL Studio
   <a href="https://soundcloud.com/arekkuzzera">
     <img src="https://img.shields.io/badge/SoundCloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" />
   </a>
+  <a href="https://t.me/dumbzzera">
+    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
+  </a>
 </p>
-
----
-
-<div align="center">
-  ⚡ <i>Design is not just how it looks — it's how it works.</i>
-</div>
