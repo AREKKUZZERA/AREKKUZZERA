@@ -73,6 +73,18 @@ Blender · ZBrush · 3D-Coat
   <a href="https://www.youtube.com/@arekkuzzera">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
   </a>
+
+  ---
+
+## 🎧 SoundCloud Insights
+
+> 1.7M+ plays since 2016
+
+<p align="center">
+  <img src="./assets/soundcloud-insights.png" width="900"/>
+</p>
+
+---
   <a href="https://soundcloud.com/arekkuzzera">
     <img src="https://img.shields.io/badge/SoundCloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" />
   </a>
