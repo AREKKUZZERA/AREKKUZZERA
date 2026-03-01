@@ -77,7 +77,6 @@ Blender · ZBrush · 3D-Coat
 
 ## 🎛️ Producer Card
 
-  <tr>
     <td width="52%" valign="top">
       <h3>🎵 Music</h3>
 
@@ -111,7 +110,6 @@ Blender · ZBrush · 3D-Coat
         <img src="./assets/images/soundcloud-insights.png" alt="SoundCloud Insights" width="100%" />
       </p>
     </td>
-  </tr>
 
 ---
 
