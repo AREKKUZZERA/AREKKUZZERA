@@ -73,6 +73,10 @@ Blender · ZBrush · 3D-Coat
   <a href="https://www.youtube.com/@arekkuzzera">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
   </a>
+    <a href="https://soundcloud.com/arekkuzzera">
+    <img src="https://img.shields.io/badge/SoundCloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" />
+  </a>
+</p>
 
   ---
 
@@ -85,8 +89,4 @@ Blender · ZBrush · 3D-Coat
 </p>
 
 ---
-  <a href="https://soundcloud.com/arekkuzzera">
-    <img src="https://img.shields.io/badge/SoundCloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" />
-  </a>
-</p>
 
