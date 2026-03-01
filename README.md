@@ -92,8 +92,8 @@ but I occasionally write my own music for fun.
 
 <p>
 <b>DAW:</b>
-<img src="./assets/icons/flstudio.png" width="11" height="17.5" style="vertical-align: -4px;" />
 FL Studio
+<img src="./assets/icons/flstudio.png" width="11" height="17.5" style="vertical-align: -4px;" />
 </p>
 
 <p>
