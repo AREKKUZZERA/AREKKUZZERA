@@ -139,3 +139,17 @@ FL Studio
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
 </p>
+
+## 📊 SoundCloud Insights
+
+<p align="center">
+  <a href="https://arekkuzzera.github.io/sc-api/">
+    <img src="./assets/images/soundcloud-insights.png" width="92%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://arekkuzzera.github.io/sc-api/">
+    <img src="https://img.shields.io/badge/Open_Live_Dashboard-f23987?style=for-the-badge" />
+  </a>
+</p>
