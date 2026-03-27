@@ -1,20 +1,20 @@
-<h1 align="center">👋 Hi, I'm <b>AREKKUZZERA</b></h1>
+<h1 align="center">Hi, I'm <b>AREKKUZZERA</b></h1>
 
 <div align="center">
   <img src="https://visitor-badge.vercel.app/badge?page_id=arekkuzzera.profile&right_color=8A2BE2" />
 </div>
 
-## ✨ About Me
+## ▪ About Me
 
-- 🎨 I build **modern interactive interfaces**
-- ⚛️ Passionate about **React ecosystem & motion-driven UI**
-- 🧩 Focused on **design systems & clean architecture**
-- 🚀 Always improving UX, performance & visual depth
-- 🎵 Exploring sound through remixing & creative production
+- I build modern interactive interfaces  
+- Focused on React ecosystem and motion-driven UI  
+- Working with design systems and clean architecture  
+- Improving UX, performance, and visual depth  
+- Exploring sound through remixing and creative production  
 
-## 🛠️ Tech Stack
+## ▪ Tech Stack
 
-### 💻 Frontend
+### Frontend
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=react" width="42" height="42" />
@@ -24,7 +24,7 @@
 
 React · TypeScript · Vite · MobX · Framer Motion
 
-### 🔧 Backend & APIs
+### Backend & APIs
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=nodejs" width="42" height="42" />
@@ -33,7 +33,7 @@ React · TypeScript · Vite · MobX · Framer Motion
 
 Node.js · Java (Paper) · REST APIs
 
-### 🎯 Design · Motion · 3D
+### Design · Motion · 3D
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=figma" width="42" height="42" />
@@ -46,38 +46,37 @@ Node.js · Java (Paper) · REST APIs
 </p>
 
 **UI/UX & Design**  
-Figma · Adobe XD
+Figma · Adobe XD  
 
 **Photo & Graphics**  
-Photoshop · Illustrator · Lightroom
+Photoshop · Illustrator · Lightroom  
 
 **Video & Motion**  
-Premiere Pro · After Effects · Media Encoder
+Premiere Pro · After Effects · Media Encoder  
 
 **3D & Sculpting**  
-Blender · ZBrush · 3D-Coat
+Blender · ZBrush · 3D-Coat  
 
-## 🎛️ Producer Card
+## ▪ Producer Card
 
 <table>
 <tr>
 <td width="52%" valign="top">
 
-<h3>🎵 Music</h3>
+<h3>Music</h3>
 
 <p>
 I mainly <b>remix & bootleg</b> other artists' work,<br/>
-but I occasionally make original tracks for fun.
+and occasionally create original tracks.
 </p>
 
 <p>
-<b>DAW:</b>
-FL Studio
+<b>DAW:</b> FL Studio
 <img src="./assets/icons/fls.png" width="22" height="22" style="vertical-align: -4px;" />
 </p>
 
 <p>
-<b>Focus:</b> remixing · bootlegs · energetic edits · original ideas
+<b>Focus:</b> remixing · bootlegs · edits · original ideas
 </p>
 
 <p>
@@ -90,7 +89,7 @@ FL Studio
 
 <td width="48%" valign="top">
 
-<h3>📊 Live Insights Widget</h3>
+<h3>Live Insights</h3>
 
 <p>
 <b>1.7M+</b> plays across all tracks
@@ -116,14 +115,11 @@ FL Studio
   </a>
 </p>
 
-<p align="center">
-</p>
-
 </td>
 </tr>
 </table>
 
-## 🌐 Connect with Me
+## ▪ Connect
 
 <p align="center">
   <a href="https://www.youtube.com/@arekkuzzera">
