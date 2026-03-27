@@ -12,6 +12,8 @@
 - Improving UX, performance, and visual depth  
 - Exploring sound through remixing and creative production  
 
+---
+
 ## ▪ Tech Stack
 
 ### Frontend
@@ -20,18 +22,38 @@
   <img src="https://skillicons.dev/icons?i=react" width="42" height="42" />
   <img src="https://skillicons.dev/icons?i=ts" width="42" height="42" />
   <img src="https://skillicons.dev/icons?i=vite" width="42" height="42" />
+  <img src="https://skillicons.dev/icons?i=html" width="42" height="42" />
+  <img src="https://skillicons.dev/icons?i=css" width="42" height="42" />
+  <img src="https://skillicons.dev/icons?i=js" width="42" height="42" />
 </p>
 
-React · TypeScript · Vite · MobX · Framer Motion
+React · TypeScript · Vite · MobX · Framer Motion · Vanilla JS · Responsive UI
+
+---
 
 ### Backend & APIs
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=nodejs" width="42" height="42" />
   <img src="https://skillicons.dev/icons?i=java" width="42" height="42" />
+  <img src="https://skillicons.dev/icons?i=express" width="42" height="42" />
 </p>
 
-Node.js · Java (Paper) · REST APIs
+Node.js · Express · Java (Paper) · REST APIs · Proxy APIs · Data aggregation
+
+---
+
+### DevOps & Tools
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=git" width="42" height="42" />
+  <img src="https://skillicons.dev/icons?i=github" width="42" height="42" />
+  <img src="https://skillicons.dev/icons?i=vercel" width="42" height="42" />
+</p>
+
+Git · GitHub · Vercel · CI/CD basics · Deployment pipelines
+
+---
 
 ### Design · Motion · 3D
 
@@ -46,7 +68,7 @@ Node.js · Java (Paper) · REST APIs
 </p>
 
 **UI/UX & Design**  
-Figma · Adobe XD  
+Figma · Adobe XD · Design systems · Prototyping  
 
 **Photo & Graphics**  
 Photoshop · Illustrator · Lightroom  
@@ -56,6 +78,8 @@ Premiere Pro · After Effects · Media Encoder
 
 **3D & Sculpting**  
 Blender · ZBrush · 3D-Coat  
+
+---
 
 ## ▪ Producer Card
 
@@ -118,6 +142,8 @@ and occasionally create original tracks.
 </td>
 </tr>
 </table>
+
+---
 
 ## ▪ Connect
 
