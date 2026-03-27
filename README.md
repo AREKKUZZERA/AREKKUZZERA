@@ -127,27 +127,11 @@ FL Studio
 </p>
 
 <p align="center">
-  total plays · growth chart · top tracks · overview
 </p>
 
 </td>
 </tr>
 </table>
-
----
-
-## 🚀 Featured Dashboard
-
-<p align="center">
-  <a href="https://arekkuzzera.github.io/sc-api/">
-    <img src="https://img.shields.io/badge/SoundCloud_Insights-Dashboard-f23987?style=for-the-badge&logoColor=white" />
-  </a>
-</p>
-
-<p align="center">
-  A custom analytics page inspired by SoundCloud Insights,<br/>
-  powered by GitHub Pages + Vercel.
-</p>
 
 ---
 
