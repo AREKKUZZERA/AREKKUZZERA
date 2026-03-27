@@ -129,7 +129,8 @@ and occasionally create original tracks.
 
 <p align="center">
   <a href="https://arekkuzzera.github.io/sc-api/">
-    <img src="./assets/images/soundcloud-insights.png" width="100%" />
+    <img width="1195" height="785" alt="{DC01B004-5A99-4138-ACE3-3C6D0ABDA61E}" src="https://github.com/user-attachments/assets/7a792c24-d88c-4ddc-9814-3790651e332a" />
+
   </a>
 </p>
 
