@@ -102,10 +102,22 @@ FL Studio
 
 <h3>📊 Insights</h3>
 
-<p><b>1.7M+</b> plays (since 2023)</p>
+<p><b>1.7M+</b> plays across all tracks</p>
 
 <p align="center">
-<img src="./assets/images/soundcloud-insights.png" width="100%" />
+  <a href="https://arekkuzzera.github.io/sc-api/">
+    <img src="./assets/images/soundcloud-insights.png" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://arekkuzzera.github.io/sc-api/">
+    <img src="https://img.shields.io/badge/Open-Live_Insights-f23987?style=for-the-badge&logo=soundcloud&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  Live dashboard with total plays, growth chart, top tracks and overview.
 </p>
 
 </td>
@@ -113,6 +125,7 @@ FL Studio
 </table>
 
 ---
+
 ## 🌐 Connect with Me
 
 <p align="center">
