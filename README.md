@@ -122,7 +122,7 @@ FL Studio
   <a href="https://soundcloud.com/arekkuzzera">
     <img src="https://img.shields.io/badge/SoundCloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" />
   </a>
-  <a href="https://t.me/dumbzzera">
+  <a href="https://t.me/perexodddu">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
 </p>
