@@ -4,8 +4,6 @@
   <img src="https://visitor-badge.vercel.app/badge?page_id=arekkuzzera.profile&right_color=8A2BE2" />
 </div>
 
----
-
 ## ✨ About Me
 
 - 🎨 I build **modern interactive interfaces**
@@ -13,8 +11,6 @@
 - 🧩 Focused on **design systems & clean architecture**
 - 🚀 Always improving UX, performance & visual depth
 - 🎵 Exploring sound through remixing & creative production
-
----
 
 ## 🛠️ Tech Stack
 
@@ -28,8 +24,6 @@
 
 React · TypeScript · Vite · MobX · Framer Motion
 
----
-
 ### 🔧 Backend & APIs
 
 <p align="left">
@@ -38,8 +32,6 @@ React · TypeScript · Vite · MobX · Framer Motion
 </p>
 
 Node.js · Java (Paper) · REST APIs
-
----
 
 ### 🎯 Design · Motion · 3D
 
@@ -64,8 +56,6 @@ Premiere Pro · After Effects · Media Encoder
 
 **3D & Sculpting**  
 Blender · ZBrush · 3D-Coat
-
----
 
 ## 🎛️ Producer Card
 
@@ -132,8 +122,6 @@ FL Studio
 </td>
 </tr>
 </table>
-
----
 
 ## 🌐 Connect with Me
 
