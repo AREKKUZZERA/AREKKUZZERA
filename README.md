@@ -77,7 +77,7 @@ Blender · ZBrush · 3D-Coat
 
 <p>
 I mainly <b>remix & bootleg</b> other artists' work,<br/>
-but I occasionally write my own music for fun.
+but I occasionally make original tracks for fun.
 </p>
 
 <p>
@@ -92,7 +92,7 @@ FL Studio
 
 <p>
 <a href="https://soundcloud.com/arekkuzzera">
-<img src="https://img.shields.io/badge/SoundCloud-Follow-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/SoundCloud-Follow-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" />
 </a>
 </p>
 
@@ -100,9 +100,19 @@ FL Studio
 
 <td width="48%" valign="top">
 
-<h3>📊 Insights</h3>
+<h3>📊 Live Insights Widget</h3>
 
-<p><b>1.7M+</b> plays across all tracks</p>
+<p>
+<b>1.7M+</b> plays across all tracks
+</p>
+
+<p>
+<a href="https://arekkuzzera.github.io/sc-api/">
+  <img src="https://img.shields.io/badge/STATUS-LIVE-f23987?style=flat-square" />
+</a>
+  <img src="https://img.shields.io/badge/Tracks-46-2f2f2f?style=flat-square" />
+  <img src="https://img.shields.io/badge/Updated-every_30_sec-212121?style=flat-square" />
+</p>
 
 <p align="center">
   <a href="https://arekkuzzera.github.io/sc-api/">
@@ -117,12 +127,27 @@ FL Studio
 </p>
 
 <p align="center">
-  Live dashboard with total plays, growth chart, top tracks and overview.
+  total plays · growth chart · top tracks · overview
 </p>
 
 </td>
 </tr>
 </table>
+
+---
+
+## 🚀 Featured Dashboard
+
+<p align="center">
+  <a href="https://arekkuzzera.github.io/sc-api/">
+    <img src="https://img.shields.io/badge/SoundCloud_Insights-Dashboard-f23987?style=for-the-badge&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  A custom analytics page inspired by SoundCloud Insights,<br/>
+  powered by GitHub Pages + Vercel.
+</p>
 
 ---
 
@@ -137,19 +162,5 @@ FL Studio
   </a>
   <a href="https://t.me/perexodddu">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
-  </a>
-</p>
-
-## 📊 SoundCloud Insights
-
-<p align="center">
-  <a href="https://arekkuzzera.github.io/sc-api/">
-    <img src="./assets/images/soundcloud-insights.png" width="92%" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://arekkuzzera.github.io/sc-api/">
-    <img src="https://img.shields.io/badge/Open_Live_Dashboard-f23987?style=for-the-badge" />
   </a>
 </p>
