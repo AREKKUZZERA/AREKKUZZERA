@@ -1,3 +1,5 @@
+<h1 align="center"> AREKKUZZERA </h1>
+
 ###
 
 <div align="center">
@@ -59,11 +61,11 @@
 ###
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arekkuzzera&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=arekkuzzera&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arekkuzzera&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=arekkuzzera&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 ###
