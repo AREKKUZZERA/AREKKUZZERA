@@ -19,8 +19,6 @@
 
 React · TypeScript · Vite · MobX · Framer Motion · Vanilla JS · Responsive UI
 
----
-
 ### Backend & APIs
 
 <p align="left">
@@ -31,8 +29,6 @@ React · TypeScript · Vite · MobX · Framer Motion · Vanilla JS · Responsive
 
 Node.js · Express · Java (Paper) · REST APIs · Proxy APIs · Data aggregation
 
----
-
 ### DevOps & Tools
 
 <p align="left">
@@ -42,8 +38,6 @@ Node.js · Express · Java (Paper) · REST APIs · Proxy APIs · Data aggregatio
 </p>
 
 Git · GitHub · Vercel · CI/CD basics · Deployment pipelines
-
----
 
 ### Design · Motion · 3D
 
