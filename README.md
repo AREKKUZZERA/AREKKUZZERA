@@ -73,19 +73,8 @@
 <h2 align="center"> Music </h2>
 
 <p align="center">
-  Remixes · Bootlegs · Edits · Original tracks · FL Studio workflow
-</p>
-
-<p align="center">
-  <a href="https://soundcloud.com/arekkuzzera">
-    <img src="https://img.shields.io/badge/SoundCloud-Follow-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" />
-  </a>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Plays-1.7M+-f23987?style=flat-square" />
   <img src="https://img.shields.io/badge/Tracks-46-2f2f2f?style=flat-square" />
-  <img src="https://img.shields.io/badge/Updated-live-212121?style=flat-square" />
 </p>
 
 <p align="center">
