@@ -70,7 +70,7 @@
 
 ###
 
-<h2 align="center">🎧 Music / Producer</h2>
+<h2 align="center"> Music </h2>
 
 <p align="center">
   Remixes · Bootlegs · Edits · Original tracks · FL Studio workflow
@@ -102,7 +102,7 @@
 
 ###
 
-<h2 align="center">🌐 Connect</h2>
+<h2 align="center"> Connect </h2>
 
 <p align="center">
   <a href="https://www.youtube.com/@arekkuzzera">
