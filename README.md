@@ -4,14 +4,6 @@
   <img src="https://visitor-badge.vercel.app/badge?page_id=arekkuzzera.profile&right_color=8A2BE2" />
 </div>
 
-## ▪ About Me
-
-- I build modern interactive interfaces  
-- Focused on React ecosystem and motion-driven UI  
-- Working with design systems and clean architecture  
-- Improving UX, performance, and visual depth  
-- Exploring sound through remixing and creative production  
-
 ---
 
 ## ▪ Tech Stack
