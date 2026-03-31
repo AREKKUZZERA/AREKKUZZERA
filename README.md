@@ -1,5 +1,3 @@
-<h1 align="center">⚡ AREKKUZZERA / frontend & creative dev</h1>
-
 ###
 
 <div align="center">
