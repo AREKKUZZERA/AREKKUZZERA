@@ -4,8 +4,6 @@
   <img src="https://visitor-badge.vercel.app/badge?page_id=arekkuzzera.profile&right_color=8A2BE2" />
 </div>
 
----
-
 ## ▪ Tech Stack
 
 ### Frontend
