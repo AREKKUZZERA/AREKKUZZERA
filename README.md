@@ -90,7 +90,7 @@
 
 <p align="center">
   <a href="https://arekkuzzera.github.io/sc-api/">
-    <img width="100%" src="https://github.com/user-attachments/assets/7a792c24-d88c-4ddc-9814-3790651e332a" />
+    <img width="1193" height="728" alt="{399052E1-1A9E-4704-B830-3EB557056D34}" src="https://github.com/user-attachments/assets/cd408d9f-5e24-4e1a-8fef-c077d7e1284b" />
   </a>
 </p>
 
