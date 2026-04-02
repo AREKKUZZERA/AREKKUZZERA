@@ -1,0 +1,42 @@
+name: generate sc preview
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: install puppeteer
+        run: |
+          npm install puppeteer
+          npx puppeteer browsers install chrome
+
+      - name: generate soundcloud-insights.svg
+        env:
+          DASHBOARD_API_URL: ${{ secrets.DASHBOARD_API_URL }}
+        run: node scripts/generate-sc-preview.js
+
+      - name: push soundcloud-insights.svg to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
