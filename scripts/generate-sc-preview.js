@@ -1,7 +1,3 @@
-// scripts/generate-sc-preview.js
-// Fetches SoundCloud dashboard data from the proxy API,
-// injects it into the HTML template and screenshots it as SVG-like PNG → SVG wrapper.
-
 import puppeteer from "puppeteer";
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -11,134 +7,160 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const DIST = path.join(ROOT, "dist");
 const TEMPLATE = path.join(ROOT, "scripts", "sc-insights-template.html");
-
-// ── 1. Fetch data ─────────────────────────────────────────────────────────────
-
-const apiUrl = process.env.DASHBOARD_API_URL?.trim();
-if (!apiUrl) {
-  console.error("❌  DASHBOARD_API_URL secret is not set.");
-  process.exit(1);
-}
-
-console.log(`⬇  Fetching dashboard data from ${apiUrl} …`);
-
-const res = await fetch(apiUrl, { headers: { Accept: "application/json" } });
-if (!res.ok) {
-  console.error(`❌  API responded with HTTP ${res.status}`);
-  process.exit(1);
-}
-
-/** @type {import('./types').DashboardPayload} */
-const data = await res.json();
-console.log(`✅  Got data — ${data.playback_count?.toLocaleString()} total plays`);
-
-// ── 2. Build bar heights for the yearly chart ─────────────────────────────────
-
-const yearly = data.history?.yearly ?? [];
-
-// Find the max plays value to scale bars (max bar height is 280px)
+const WIDTH = 960;
+const HEIGHT = 586;
 const MAX_BAR_PX = 280;
-const maxPlays = Math.max(...yearly.map((y) => y.plays ?? 0), 1);
+const FETCH_TIMEOUT_MS = 15_000;
 
-const bars = yearly.map((y) => ({
-  label: y.label,
-  height: Math.round(((y.plays ?? 0) / maxPlays) * MAX_BAR_PX)
-}));
-
-// ── 3. Load HTML template and inject data ────────────────────────────────────
-
-const template = await fs.readFile(TEMPLATE, "utf8");
-
-function fmt(n) {
-  return Number(n ?? 0).toLocaleString("en-US");
+function fail(message, error) {
+  console.error(`Error: ${message}`);
+  if (error) console.error(error);
+  process.exit(1);
 }
 
-// Calculate highest Y-axis tick (rounded up to nearest 100K)
-const totalPlays = data.playback_count ?? 0;
-const yMax = Math.ceil(totalPlays / 200000) * 200000;
-const yTick = yMax / 5; // 5 grid lines
-
-function fmtY(n) {
-  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(n % 1_000_000 === 0 ? 0 : 1)}M`;
-  if (n >= 1_000) return `${Math.round(n / 1_000)}K`;
-  return String(n);
+function numberOrZero(value) {
+  const number = Number(value);
+  return Number.isFinite(number) && number > 0 ? number : 0;
 }
 
-const yAxisLabels = [
-  fmtY(yMax),
-  fmtY(yMax - yTick),
-  fmtY(yMax - 2 * yTick),
-  fmtY(yMax - 3 * yTick),
-  fmtY(yMax - 4 * yTick),
-  "0"
-];
+function formatNumber(value) {
+  return numberOrZero(value).toLocaleString("en-US");
+}
 
-// Build bar columns HTML
-const barsHtml = bars
-  .map(({ label, height }) => {
-    const fill =
-      height > 0
-        ? `<div class="fill" style="height: ${height}px"></div>`
-        : "";
-    return `<div class="bar-col"><div class="bar">${fill}</div><div class="year">${label}</div></div>`;
-  })
-  .join("\n          ");
+function formatAxis(value) {
+  const number = numberOrZero(value);
+  if (number >= 1_000_000) {
+    return `${(number / 1_000_000).toFixed(number % 1_000_000 === 0 ? 0 : 1)}M`;
+  }
+  if (number >= 1_000) return `${Math.round(number / 1_000)}K`;
+  return String(number);
+}
 
-// Replace placeholders in template
-const html = template
-  .replace("{{TOTAL_PLAYS}}", fmt(totalPlays))
-  .replace("{{SINCE_YEAR}}", String(data.sinceYear ?? 2016))
-  .replace("{{PLAYS_CHIP}}", fmt(data.playback_count))
-  .replace("{{LIKES}}", fmt(data.likes))
-  .replace("{{COMMENTS}}", fmt(data.comments))
-  .replace("{{REPOSTS}}", fmt(data.reposts))
-  .replace("{{DOWNLOADS}}", fmt(data.downloads))
-  .replace("{{Y_LABEL_0}}", yAxisLabels[0])
-  .replace("{{Y_LABEL_1}}", yAxisLabels[1])
-  .replace("{{Y_LABEL_2}}", yAxisLabels[2])
-  .replace("{{Y_LABEL_3}}", yAxisLabels[3])
-  .replace("{{Y_LABEL_4}}", yAxisLabels[4])
-  .replace("{{Y_LABEL_5}}", yAxisLabels[5])
-  .replace("{{BARS}}", barsHtml);
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
 
-// ── 4. Render with Puppeteer ──────────────────────────────────────────────────
+function niceMax(value) {
+  const number = Math.max(numberOrZero(value), 1);
+  const magnitude = 10 ** Math.floor(Math.log10(number));
+  const normalized = number / magnitude;
+  const rounded = normalized <= 2 ? 2 : normalized <= 5 ? 5 : 10;
 
-await fs.mkdir(DIST, { recursive: true });
+  return rounded * magnitude;
+}
 
-console.log("🎨  Launching Puppeteer …");
-const browser = await puppeteer.launch({
-  args: ["--no-sandbox", "--disable-setuid-sandbox"]
-});
-const page = await browser.newPage();
+function replaceAllPlaceholders(template, values) {
+  return Object.entries(values).reduce(
+    (html, [key, value]) => html.replaceAll(`{{${key}}}`, String(value)),
+    template
+  );
+}
 
-// Viewport matches the mockup dimensions (960 × 586)
-await page.setViewport({ width: 960, height: 586, deviceScaleFactor: 2 });
-await page.setContent(html, { waitUntil: "networkidle0" });
+async function fetchDashboardData() {
+  const apiUrl = process.env.DASHBOARD_API_URL?.trim();
+  if (!apiUrl) fail("DASHBOARD_API_URL secret is not set.");
 
-// Light version
-await page.screenshot({
-  path: path.join(DIST, "soundcloud-insights.png"),
-  fullPage: false,
-  clip: { x: 0, y: 0, width: 960, height: 586 }
-});
+  try {
+    new URL(apiUrl);
+  } catch {
+    fail("DASHBOARD_API_URL is not a valid URL.");
+  }
 
-// Wrap in a minimal SVG <image> tag so it can be embedded in a GitHub README
-// just like the snake SVG, using the same pattern.
-const pngBuffer = await fs.readFile(path.join(DIST, "soundcloud-insights.png"));
-const b64 = pngBuffer.toString("base64");
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
 
-const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="586">
-  <image href="data:image/png;base64,${b64}" width="960" height="586"/>
+  try {
+    console.log(`Fetching dashboard data from ${apiUrl}`);
+    const res = await fetch(apiUrl, {
+      headers: { Accept: "application/json" },
+      signal: controller.signal
+    });
+
+    if (!res.ok) fail(`API responded with HTTP ${res.status}.`);
+    return await res.json();
+  } catch (error) {
+    fail("Failed to fetch dashboard data.", error);
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+function buildHtml(template, data) {
+  const yearly = Array.isArray(data?.history?.yearly) ? data.history.yearly : [];
+  const playsByYear = yearly.map((item) => numberOrZero(item?.plays));
+  const maxPlays = Math.max(...playsByYear, 1);
+  const yMax = niceMax(maxPlays);
+  const yTick = yMax / 5;
+  const barsHtml = yearly
+    .map((item, index) => {
+      const plays = playsByYear[index];
+      const height = Math.round((plays / yMax) * MAX_BAR_PX);
+      const fill = height > 0 ? `<div class="fill" style="height: ${height}px"></div>` : "";
+      return `<div class="bar-col"><div class="bar">${fill}</div><div class="year">${escapeHtml(item?.label)}</div></div>`;
+    })
+    .join("\n          ");
+
+  return replaceAllPlaceholders(template, {
+    TOTAL_PLAYS: formatNumber(data?.playback_count),
+    SINCE_YEAR: escapeHtml(data?.sinceYear ?? 2016),
+    PLAYS_CHIP: formatNumber(data?.playback_count),
+    LIKES: formatNumber(data?.likes),
+    COMMENTS: formatNumber(data?.comments),
+    REPOSTS: formatNumber(data?.reposts),
+    DOWNLOADS: formatNumber(data?.downloads),
+    Y_LABEL_0: formatAxis(yMax),
+    Y_LABEL_1: formatAxis(yMax - yTick),
+    Y_LABEL_2: formatAxis(yMax - 2 * yTick),
+    Y_LABEL_3: formatAxis(yMax - 3 * yTick),
+    Y_LABEL_4: formatAxis(yMax - 4 * yTick),
+    Y_LABEL_5: "0",
+    BARS: barsHtml
+  });
+}
+
+async function render(html) {
+  await fs.mkdir(DIST, { recursive: true });
+
+  console.log("Rendering preview");
+  const browser = await puppeteer.launch({
+    args: ["--no-sandbox", "--disable-setuid-sandbox"]
+  });
+
+  try {
+    const page = await browser.newPage();
+    await page.setViewport({ width: WIDTH, height: HEIGHT, deviceScaleFactor: 2 });
+    await page.setContent(html, { waitUntil: "domcontentloaded" });
+    await page.evaluate(() => document.fonts?.ready);
+
+    const pngBuffer = await page.screenshot({
+      path: path.join(DIST, "soundcloud-insights.png"),
+      fullPage: false,
+      clip: { x: 0, y: 0, width: WIDTH, height: HEIGHT }
+    });
+
+    const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}">
+  <image href="data:image/png;base64,${pngBuffer.toString("base64")}" width="${WIDTH}" height="${HEIGHT}"/>
 </svg>`;
 
-await fs.writeFile(path.join(DIST, "soundcloud-insights.svg"), svgContent, "utf8");
+    await fs.writeFile(path.join(DIST, "soundcloud-insights.svg"), svgContent, "utf8");
+    await fs.copyFile(
+      path.join(DIST, "soundcloud-insights.svg"),
+      path.join(DIST, "soundcloud-insights-dark.svg")
+    );
+  } finally {
+    await browser.close();
+  }
+}
 
-// Dark variant (template already uses dark colours — same file, just alias)
-await fs.copyFile(
-  path.join(DIST, "soundcloud-insights.svg"),
-  path.join(DIST, "soundcloud-insights-dark.svg")
-);
+const [data, template] = await Promise.all([
+  fetchDashboardData(),
+  fs.readFile(TEMPLATE, "utf8")
+]);
 
-await browser.close();
-
-console.log("✅  soundcloud-insights.svg written to dist/");
+await render(buildHtml(template, data));
+console.log("soundcloud-insights.svg written to dist/");

@@ -1,0 +1,11 @@
+{
+  "name": "arekkuzzera-readme",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:sc-preview": "node scripts/generate-sc-preview.js"
+  },
+  "dependencies": {
+    "puppeteer": "^24.0.0"
+  }
+}

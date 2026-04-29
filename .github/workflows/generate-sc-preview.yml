@@ -14,6 +14,9 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    concurrency:
+      group: generate-sc-preview
+      cancel-in-progress: true
     steps:
       - name: checkout
         uses: actions/checkout@v4
@@ -23,15 +26,28 @@ jobs:
         with:
           node-version: 20
 
-      - name: install puppeteer
-        run: |
-          npm install puppeteer
-          npx puppeteer browsers install chrome
+      - name: cache npm and puppeteer chrome
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.npm
+            ~/.cache/puppeteer
+          key: npm-puppeteer-${{ runner.os }}-${{ hashFiles('package.json') }}
+          restore-keys: |
+            npm-puppeteer-${{ runner.os }}-
+
+      - name: install dependencies
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: true
+        run: npm install --no-audit --no-fund
+
+      - name: install chrome
+        run: npx puppeteer browsers install chrome
 
       - name: generate soundcloud-insights.svg
         env:
           DASHBOARD_API_URL: ${{ secrets.DASHBOARD_API_URL }}
-        run: node scripts/generate-sc-preview.js
+        run: npm run generate:sc-preview
 
       - name: push soundcloud-insights.svg to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
