@@ -87,48 +87,8 @@
       margin-left: 16px;
     }
 
-    .tabs {
-      margin-top: 22px;
-      display: flex;
-      align-items: center;
-      gap: 26px;
-      font-size: 15px;
-      font-weight: 850;
-    }
-
-    .tab {
-      color: var(--muted);
-      position: relative;
-    }
-
-    .tab.active {
-      color: var(--text);
-    }
-
-    .tab.active::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: -8px;
-      width: 80px;
-      height: 4px;
-      border-radius: 999px;
-      background: var(--text);
-    }
-
-    .new-pill {
-      margin-left: -15px;
-      padding: 2px 8px 3px;
-      border-radius: 999px;
-      background: #ff3f6f;
-      color: #fff;
-      font-size: 11px;
-      font-weight: 900;
-      text-shadow: none;
-    }
-
     .headline {
-      margin-top: 48px;
+      margin-top: 74px;
       display: flex;
       align-items: baseline;
       gap: 11px;
@@ -182,40 +142,8 @@
       flex: 0 0 auto;
     }
 
-    .meta-row {
-      margin-top: 28px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-      color: var(--muted);
-      font-size: 14px;
-      font-weight: 800;
-    }
-
-    .meta-right {
-      display: flex;
-      align-items: center;
-      gap: 18px;
-      color: var(--text);
-    }
-
-    .status {
-      height: 34px;
-      padding: 0 13px;
-      display: inline-flex;
-      align-items: center;
-      border-radius: 999px;
-      border: 1px solid rgba(0, 232, 121, 0.38);
-      background: rgba(0, 232, 121, 0.08);
-      color: var(--green);
-      font-size: 12px;
-      font-weight: 900;
-      text-shadow: none;
-    }
-
     .chart-wrap {
-      margin-top: 30px;
+      margin-top: 64px;
       position: relative;
       padding-left: 72px;
       padding-right: 0;
@@ -292,13 +220,6 @@
       <div class="filter">All time <span class="chevron"></span></div>
     </div>
 
-    <div class="tabs">
-      <span class="tab active">SoundCloud</span>
-      <span class="tab">All Platforms</span>
-      <span class="tab">Fans</span>
-      <span class="new-pill">NEW</span>
-    </div>
-
     <div class="headline">
       <div class="headline-main">{{TOTAL_PLAYS}} plays since {{SINCE_YEAR}}</div>
       <div class="headline-green">{{GROWTH_BADGE}}</div>
@@ -324,14 +245,6 @@
       <div class="chip">
         <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M10 3.5v8"/><path d="M6.75 8.75L10 12l3.25-3.25"/><path d="M4 15.5h12"/></svg>
         {{DOWNLOADS}} {{DOWNLOAD_LABEL}}
-      </div>
-    </div>
-
-    <div class="meta-row">
-      <div>{{REFRESH_LABEL}}</div>
-      <div class="meta-right">
-        <strong>{{PERIOD_LABEL}}</strong>
-        <span class="status">{{STATUS_LABEL}}</span>
       </div>
     </div>
 
