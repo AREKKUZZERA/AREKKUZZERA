@@ -1,10 +1,6 @@
 <h1 align="center">AREKKUZZERA</h1>
 
 <p align="center">
-  <b>Creative frontend developer building sharp web experiences.</b>
-</p>
-
-<p align="center">
   <a href="https://arekkuzzera.github.io/sc-api/">
     <img src="https://img.shields.io/badge/Live%20Insights-f23987?style=for-the-badge" />
   </a>
