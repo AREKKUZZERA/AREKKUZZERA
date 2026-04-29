@@ -79,7 +79,7 @@
 
 <p align="center">
   <a href="https://arekkuzzera.github.io/sc-api/">
-    <img width="1200" height="690" alt="SoundCloud insights" src="https://raw.githubusercontent.com/AREKKUZZERA/AREKKUZZERA/output/soundcloud-insights.svg" />
+    <img width="1200" height="690" alt="SoundCloud insights" src="https://raw.githubusercontent.com/AREKKUZZERA/AREKKUZZERA/output/soundcloud-insights.svg?v=compact-20260429" />
   </a>
 </p>
 
