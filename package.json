@@ -3,7 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "generate:sc-preview": "node scripts/generate-sc-preview.js"
+    "generate:sc-preview": "node scripts/generate-sc-preview.js",
+    "generate:sc-preview:mock": "node scripts/generate-sc-preview.js --mock",
+    "test": "node scripts/sc-preview-core.test.js",
+    "check": "node --check scripts/generate-sc-preview.js && node --check scripts/sc-preview-core.js && npm test"
   },
   "dependencies": {
     "puppeteer": "^24.0.0"

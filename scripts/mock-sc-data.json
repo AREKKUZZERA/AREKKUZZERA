@@ -1,0 +1,27 @@
+{
+  "playback_count": 1774227,
+  "sinceYear": 2016,
+  "today_plays": 1005,
+  "likes": 18989,
+  "comments": 372,
+  "reposts": 378,
+  "downloads": 2,
+  "refreshLabel": "Data refreshes every 30 sec",
+  "periodLabel": "2016 - 2026",
+  "statusLabel": "Live stats connected",
+  "history": {
+    "yearly": [
+      { "label": "2016", "plays": 43200 },
+      { "label": "2017", "plays": 43150 },
+      { "label": "2018", "plays": 43200 },
+      { "label": "2019", "plays": 43150 },
+      { "label": "2020", "plays": 43200 },
+      { "label": "2021", "plays": 43150 },
+      { "label": "2022", "plays": 43200 },
+      { "label": "2023", "plays": 43150 },
+      { "label": "2024", "plays": 43200 },
+      { "label": "2025", "plays": 43150 },
+      { "label": "2026", "plays": 34000, "current": true }
+    ]
+  }
+}

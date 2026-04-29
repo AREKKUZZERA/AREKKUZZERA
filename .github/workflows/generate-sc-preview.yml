@@ -41,8 +41,14 @@ jobs:
           PUPPETEER_SKIP_DOWNLOAD: true
         run: npm install --no-audit --no-fund
 
+      - name: check preview code
+        run: npm run check
+
       - name: install chrome
         run: npx puppeteer browsers install chrome
+
+      - name: render preview with mock data
+        run: npm run generate:sc-preview:mock
 
       - name: generate soundcloud-insights.svg
         env:

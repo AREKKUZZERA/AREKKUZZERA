@@ -3,228 +3,247 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Insights Mockup</title>
+  <title>SoundCloud Insights</title>
   <style>
     :root {
-      --bg: #0d1117;
-      --bg-2: #0d1117;
-      --text: #f8f5f0;
-      --muted: #d8cfc3;
-      --chip: #303238;
-      --bar: #69696c;
-      --axis: #a8c5ff;
-      --pink-top: #f075b0;
-      --pink-bottom: #ec2f86;
-      --green: #13f26f;
-      --border: rgba(255,255,255,0.12);
-      --grid: rgba(255,255,255,0.05);
+      --text: #f7f7f7;
+      --muted: #c8d0d8;
+      --chip: #303030;
+      --chip-light: #f4f4f4;
+      --bar: #3f3f3f;
+      --grid: rgba(255, 255, 255, 0.065);
+      --axis: #a8cbff;
+      --pink-top: #ff78b5;
+      --pink-bottom: #ee2f8b;
+      --green: #00e879;
+      --border: rgba(255, 255, 255, 0.16);
     }
 
     * { box-sizing: border-box; }
 
+    html,
     body {
       margin: 0;
-      min-height: 100vh;
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: var(--bg);
+      width: 1200px;
+      height: 790px;
+      overflow: hidden;
+      background: transparent;
       color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
       display: grid;
       place-items: center;
-      padding: 24px;
     }
 
     .mockup {
-      width: min(960px, 100%);
-      min-height: 586px;
-      padding: 10px 14px 18px;
-      background: var(--bg);
+      width: 1200px;
+      height: 790px;
+      padding: 12px 30px 26px 50px;
+      background: transparent;
       overflow: hidden;
       position: relative;
+      text-shadow: 0 2px 0 rgba(0, 0, 0, 0.72);
     }
 
     .topbar {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
-      margin-bottom: 4px;
-      transform: translateY(-6px);
     }
 
     h1 {
       margin: 0;
-      font-size: 58px;
-      line-height: 1;
-      font-weight: 900;
-      letter-spacing: -0.01em;
+      font-size: 56px;
+      line-height: 0.95;
+      font-weight: 950;
+      letter-spacing: 0;
     }
 
     .filter {
-      background: #1f232b;
+      height: 52px;
+      min-width: 134px;
+      margin-top: 0;
+      padding: 0 16px 0 20px;
+      border-radius: 12px;
       border: 1px solid var(--border);
+      background: rgba(47, 47, 47, 0.92);
       color: var(--text);
-      border-radius: 13px;
-      padding: 12px 16px;
-      min-width: 110px;
       display: inline-flex;
       align-items: center;
       justify-content: space-between;
-      font-size: 13px;
-      font-weight: 700;
-      box-shadow: inset 0 1px 0 rgba(255,255,255,0.03);
-      margin-top: 16px;
+      font-size: 15px;
+      font-weight: 800;
+      text-shadow: none;
     }
 
     .chevron {
-      width: 10px;
-      height: 10px;
-      border-right: 2px solid #f6f0e8;
-      border-bottom: 2px solid #f6f0e8;
+      width: 9px;
+      height: 9px;
+      border-right: 2px solid currentColor;
+      border-bottom: 2px solid currentColor;
       transform: rotate(45deg) translateY(-2px);
-      margin-left: 10px;
+      margin-left: 16px;
     }
 
-    .section-label {
-      margin-top: 2px;
-      font-size: 17px;
-      font-weight: 800;
+    .tabs {
+      margin-top: 22px;
+      display: flex;
+      align-items: center;
+      gap: 26px;
+      font-size: 15px;
+      font-weight: 850;
     }
 
-    .section-line {
-      width: 65px;
+    .tab {
+      color: var(--muted);
+      position: relative;
+    }
+
+    .tab.active {
+      color: var(--text);
+    }
+
+    .tab.active::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -8px;
+      width: 80px;
       height: 4px;
       border-radius: 999px;
       background: var(--text);
-      margin-top: 6px;
+    }
+
+    .new-pill {
+      margin-left: -15px;
+      padding: 2px 8px 3px;
+      border-radius: 999px;
+      background: #ff3f6f;
+      color: #fff;
+      font-size: 11px;
+      font-weight: 900;
+      text-shadow: none;
     }
 
     .headline {
-      margin-top: 18px;
+      margin-top: 48px;
       display: flex;
       align-items: baseline;
-      gap: 14px;
+      gap: 11px;
       flex-wrap: wrap;
     }
 
-    .headline-main {
-      font-size: 51px;
-      font-weight: 900;
-      letter-spacing: -0.04em;
-      line-height: 1;
+    .headline-main,
+    .headline-green {
+      font-size: 58px;
+      line-height: 0.96;
+      font-weight: 950;
+      letter-spacing: 0;
     }
 
     .headline-green {
-      font-size: 47px;
-      line-height: 1;
       color: var(--green);
-      font-weight: 900;
-      letter-spacing: -0.04em;
     }
 
     .stats-row {
-      margin-top: 16px;
+      margin-top: 22px;
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 14px;
       flex-wrap: wrap;
+      text-shadow: none;
     }
 
     .chip {
-      height: 34px;
+      height: 44px;
       border-radius: 999px;
       background: var(--chip);
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      padding: 0 14px;
-      font-size: 12px;
-      font-weight: 800;
+      padding: 0 17px;
       color: #fff;
+      font-size: 13px;
+      font-weight: 850;
       white-space: nowrap;
     }
 
     .chip.primary {
-      background: #f4f1ec;
-      color: #111318;
+      background: var(--chip-light);
+      color: #111;
     }
 
-    .primary .icon-circle::before {
-      content: "";
-      position: absolute;
-      left: 5px;
-      top: 3px;
-      border-left: 6px solid #111318;
-      border-top: 4px solid transparent;
-      border-bottom: 4px solid transparent;
-    }
-
-    .repost-icon,
-    .download-icon {
-      width: 16px;
-      height: 16px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
+    .chip svg {
+      display: block;
+      width: 15px;
+      height: 15px;
       flex: 0 0 auto;
     }
 
-    .repost-icon {
-      color: #ffffff;
-    }
-
-    .download-icon {
-      color: #c9baff;
-    }
-
-    .repost-icon svg,
-    .download-icon svg {
-      display: block;
-    }
-
-    .meta {
-      margin-left: 640px;
+    .meta-row {
+      margin-top: 28px;
       display: flex;
-      gap: 22px;
       align-items: center;
+      justify-content: space-between;
+      gap: 20px;
       color: var(--muted);
-      font-size: 12px;
-      font-weight: 700;
-    }
-
-    .meta strong {
-      color: var(--text);
+      font-size: 14px;
       font-weight: 800;
     }
 
+    .meta-right {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      color: var(--text);
+    }
+
+    .status {
+      height: 34px;
+      padding: 0 13px;
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      border: 1px solid rgba(0, 232, 121, 0.38);
+      background: rgba(0, 232, 121, 0.08);
+      color: var(--green);
+      font-size: 12px;
+      font-weight: 900;
+      text-shadow: none;
+    }
+
     .chart-wrap {
-      margin-top: 16px;
+      margin-top: 30px;
       position: relative;
-      padding-left: 56px;
-      padding-right: 18px;
-      padding-bottom: 24px;
+      padding-left: 72px;
+      padding-right: 0;
     }
 
     .y-axis {
       position: absolute;
       left: 0;
       top: 0;
-      bottom: 22px;
-      width: 48px;
+      bottom: 29px;
+      width: 54px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       color: var(--axis);
-      font-size: 12px;
-      font-weight: 700;
+      font-size: 13px;
+      font-weight: 850;
     }
 
     .chart {
-      height: 300px;
+      height: 386px;
       position: relative;
       border-bottom: 1px solid var(--grid);
       display: flex;
       align-items: flex-end;
-      gap: 17px;
-      padding: 0 8px 0 8px;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 0 8px 30px 0;
       background-image:
         linear-gradient(to top, transparent 0, transparent calc(20% - 0.5px), var(--grid) calc(20% - 0.5px), var(--grid) 20%, transparent 20%),
         linear-gradient(to top, transparent 0, transparent calc(40% - 0.5px), var(--grid) calc(40% - 0.5px), var(--grid) 40%, transparent 40%),
@@ -233,48 +252,36 @@
     }
 
     .bar-col {
-      width: 60px;
+      width: 74px;
+      height: 386px;
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
       align-items: center;
-      gap: 10px;
+      gap: 14px;
     }
 
     .bar {
-      width: 60px;
-      height: 280px;
-      border-radius: 6px;
-      background: var(--bar);
+      width: 74px;
+      min-height: 5px;
+      border-radius: 8px 8px 0 0;
       position: relative;
-      overflow: visible;
     }
 
-    .fill {
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      border-radius: 7px;
-      background: linear-gradient(180deg, var(--pink-top), var(--pink-bottom));
-      box-shadow: 0 0 28px rgba(236, 47, 134, 0.4), 0 12px 24px rgba(236, 47, 134, 0.18);
+    .bar.past {
+      background: linear-gradient(180deg, #464646 0%, var(--bar) 100%);
+    }
+
+    .bar.current {
+      background: linear-gradient(180deg, var(--pink-top) 0%, var(--pink-bottom) 100%);
+      box-shadow: 0 0 34px rgba(238, 47, 139, 0.42), 0 18px 26px rgba(238, 47, 139, 0.2);
     }
 
     .year {
       color: var(--axis);
-      font-size: 12px;
-      font-weight: 700;
-      margin-top: 0;
+      font-size: 13px;
+      font-weight: 850;
       line-height: 1;
-    }
-
-    @media (max-width: 900px) {
-      .headline-main { font-size: 42px; }
-      .headline-green { font-size: 40px; }
-      .meta { width: 100%; margin-left: 0; }
-      .mockup { min-height: auto; }
-      .chart-wrap { overflow-x: auto; }
-      .chart-inner { min-width: 860px; }
     }
   </style>
 </head>
@@ -285,47 +292,46 @@
       <div class="filter">All time <span class="chevron"></span></div>
     </div>
 
-    <div class="section-label">SoundCloud</div>
-    <div class="section-line"></div>
+    <div class="tabs">
+      <span class="tab active">SoundCloud</span>
+      <span class="tab">All Platforms</span>
+      <span class="tab">Fans</span>
+      <span class="new-pill">NEW</span>
+    </div>
 
     <div class="headline">
       <div class="headline-main">{{TOTAL_PLAYS}} plays since {{SINCE_YEAR}}</div>
+      <div class="headline-green">{{GROWTH_BADGE}}</div>
     </div>
 
     <div class="stats-row">
       <div class="chip primary">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M5 3l14 9-14 9V3z"/>
-        </svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4l12 8-12 8V4z"/></svg>
         {{PLAYS_CHIP}} plays
       </div>
-
       <div class="chip">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M20.8 4.6c-1.5-1.6-4-1.6-5.5 0L12 8l-3.3-3.4c-1.5-1.6-4-1.6-5.5 0-1.6 1.7-1.6 4.4 0 6.1L12 21l8.8-10.3c1.6-1.7 1.6-4.4 0-6.1z"/>
-        </svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.4-9.4-8.6C.7 9 .9 5.2 3.7 3.4 6 1.9 9 2.5 12 5.6c3-3.1 6-3.7 8.3-2.2 2.8 1.8 3 5.6 1.1 9C19 16.6 12 21 12 21z"/></svg>
         {{LIKES}} likes
       </div>
-
       <div class="chip">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V5a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"/>
-        </svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h16v11H8l-4 4V4z"/></svg>
         {{COMMENTS}} comments
       </div>
       <div class="chip">
-        <span class="repost-icon">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M17 1l4 4-4 4"/>
-            <path d="M3 11V9a4 4 0 0 1 4-4h14"/>
-            <path d="M7 23l-4-4 4-4"/>
-            <path d="M21 13v2a4 4 0 0 1-4 4H3"/>
-          </svg>
-        </span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2l4 4-4 4"/><path d="M3 11V9a3 3 0 0 1 3-3h15"/><path d="M7 22l-4-4 4-4"/><path d="M21 13v2a3 3 0 0 1-3 3H3"/></svg>
         {{REPOSTS}} reposts
       </div>
-      <div class="chip"><span class="download-icon" aria-hidden="true"><svg viewBox="0 0 20 20" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 3.5V11.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M6.75 8.75L10 12L13.25 8.75" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 15.5H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>{{DOWNLOADS}} download</div>
-      <div class="meta">
+      <div class="chip">
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M10 3.5v8"/><path d="M6.75 8.75L10 12l3.25-3.25"/><path d="M4 15.5h12"/></svg>
+        {{DOWNLOADS}} {{DOWNLOAD_LABEL}}
+      </div>
+    </div>
+
+    <div class="meta-row">
+      <div>{{REFRESH_LABEL}}</div>
+      <div class="meta-right">
+        <strong>{{PERIOD_LABEL}}</strong>
+        <span class="status">{{STATUS_LABEL}}</span>
       </div>
     </div>
 
@@ -339,10 +345,8 @@
         <span>{{Y_LABEL_5}}</span>
       </div>
 
-      <div class="chart-inner">
-        <div class="chart" style="transform: translateY(-6px);">
-          {{BARS}}
-        </div>
+      <div class="chart">
+        {{BARS}}
       </div>
     </div>
   </section>
