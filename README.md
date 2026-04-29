@@ -11,41 +11,24 @@
 <br />
 
 <p align="center">
-  <sub><b>Frontend</b></sub>
-</p>
-
-<p align="center">
   <img src="https://skillicons.dev/icons?i=react,ts,vite,js,html,css" height="42" />
-</p>
-
-<p align="center">
-  <sub><b>Backend & Tools</b></sub>
-</p>
-
-<p align="center">
+  <br />
+  <br />
   <img src="https://skillicons.dev/icons?i=nodejs,express,java,git,github,vercel" height="42" />
-</p>
-
-<p align="center">
-  <sub><b>Design & Motion</b></sub>
-</p>
-
-<p align="center">
+  <br />
+  <br />
   <img src="https://skillicons.dev/icons?i=figma,ps,ai,ae,pr,blender" height="42" />
 </p>
 
 <br />
 
-<table align="center">
-  <tr>
-    <td>
-      <img width="430" src="https://github-readme-stats-sigma-five.vercel.app/api?username=arekkuzzera&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=6ea8ff&icon_color=f23987" />
-    </td>
-    <td>
-      <img width="330" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=arekkuzzera&layout=compact&theme=tokyonight&hide_border=true&title_color=6ea8ff" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img width="520" src="https://github-readme-stats-sigma-five.vercel.app/api?username=arekkuzzera&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=6ea8ff&icon_color=f23987" />
+</p>
+
+<p align="center">
+  <img width="420" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=arekkuzzera&layout=compact&theme=tokyonight&hide_border=true&title_color=6ea8ff" />
+</p>
 
 <br />
 
