@@ -34,7 +34,7 @@
 
 <p align="center">
   <a href="https://arekkuzzera.github.io/sc-api/">
-    <img width="1200" height="690" alt="SoundCloud insights" src="https://raw.githubusercontent.com/AREKKUZZERA/AREKKUZZERA/output/soundcloud-insights.svg?v=showcase-20260429" />
+    <img width="1120" height="640" alt="SoundCloud insights" src="https://raw.githubusercontent.com/AREKKUZZERA/AREKKUZZERA/output/soundcloud-insights.svg?v=padded-20260430" />
   </a>
 </p>
 

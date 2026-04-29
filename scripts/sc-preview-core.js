@@ -1,6 +1,6 @@
-export const WIDTH = 1200;
-export const HEIGHT = 690;
-export const MAX_BAR_PX = 310;
+export const WIDTH = 1120;
+export const HEIGHT = 640;
+export const MAX_BAR_PX = 286;
 export const FETCH_TIMEOUT_MS = 15_000;
 
 export function numberOrZero(value) {
