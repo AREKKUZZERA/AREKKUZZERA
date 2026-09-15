@@ -62,15 +62,7 @@
     />
   </a>
 </p>
-
-<p align="center">
-  <a href="https://arekkuzzera.github.io/sc-api/">
-    <b>Open Live Insights</b>
-  </a>
-</p>
-
 <br />
-
 <h2 align="center">GitHub Activity</h2>
 
 <p align="center">
@@ -79,36 +71,6 @@
     alt="AREKKUZZERA GitHub Stats"
   />
 </p>
-
-<br />
-
-<p align="center">
-  <img
-    src="https://github-profile-trophy.vercel.app/?username=AREKKUZZERA&theme=radical&no-frame=true&no-bg=true&margin-w=4"
-    alt="AREKKUZZERA GitHub Trophies"
-  />
-</p>
-
-<br />
-
-<p align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/AREKKUZZERA/AREKKUZZERA/output/github-contribution-grid-snake-dark.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/AREKKUZZERA/AREKKUZZERA/output/github-contribution-grid-snake.svg"
-    />
-    <img
-      alt="GitHub contribution snake"
-      src="https://raw.githubusercontent.com/AREKKUZZERA/AREKKUZZERA/output/github-contribution-grid-snake.svg"
-    />
-  </picture>
-</p>
-
-<br />
 
 <h2 align="center">Connect</h2>
 
