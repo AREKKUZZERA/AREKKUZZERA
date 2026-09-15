@@ -2,61 +2,39 @@
 
 <p align="center">
   <a href="https://arekkuzzera.github.io/sc-api/">
-    <img
-      src="https://img.shields.io/badge/Live%20Insights-f23987?style=for-the-badge"
-      alt="Live Insights"
-    />
+    <img src="https://img.shields.io/badge/Live%20Insights-f23987?style=for-the-badge" />
   </a>
   <a href="https://soundcloud.com/arekkuzzera">
-    <img
-      src="https://img.shields.io/badge/SoundCloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white"
-      alt="SoundCloud"
-    />
+    <img src="https://img.shields.io/badge/SoundCloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" />
   </a>
   <a href="https://t.me/perexodddu">
-    <img
-      src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"
-      alt="Telegram"
-    />
+    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
 </p>
 
-<br>
+<br />
 
 <p align="center">
-  <img
-    src="https://skillicons.dev/icons?i=react,ts,vite,js,html,css"
-    height="42"
-    alt="Frontend"
-  />
+  <img src="https://skillicons.dev/icons?i=react,ts,vite,js,html,css" height="42" />
+  <br />
+  <br />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,java,git,github,vercel" height="42" />
+  <br />
+  <br />
+  <img src="https://skillicons.dev/icons?i=figma,ps,ai,ae,pr,blender" height="42" />
 </p>
 
-<p align="center">
-  <img
-    src="https://skillicons.dev/icons?i=nodejs,express,java,git,github,vercel"
-    height="42"
-    alt="Backend"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://skillicons.dev/icons?i=figma,ps,ai,ae,pr,blender"
-    height="42"
-    alt="Design"
-  />
-</p>
-
-<br>
+<br />
 
 <h2 align="center">Featured</h2>
 
 <p align="center">
   <a href="https://arekkuzzera.github.io/sc-api/">
     <img
-      width="100%"
-      alt="SoundCloud Insights"
-      src="https://raw.githubusercontent.com/AREKKUZZERA/AREKKUZZERA/output/soundcloud-insights.svg?v=20260430"
+      width="1120"
+      height="640"
+      alt="SoundCloud insights"
+      src="https://raw.githubusercontent.com/AREKKUZZERA/AREKKUZZERA/output/soundcloud-insights.svg?v=padded-20260430"
     />
   </a>
 </p>
@@ -67,49 +45,40 @@
   </a>
 </p>
 
-<br>
+<br />
 
 <h2 align="center">GitHub Activity</h2>
 
 <p align="center">
-  <a href="https://github.com/AREKKUZZERA">
-    <img
-      src="https://img.shields.io/badge/GitHub-AREKKUZZERA-6ea8ff?style=for-the-badge&logo=github&logoColor=white"
-      alt="GitHub Profile"
-    />
-  </a>
+  <img
+    width="500"
+    src="https://YOUR-VERCEL-DOMAIN.vercel.app/api?username=AREKKUZZERA&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=6ea8ff&icon_color=f23987"
+    alt="GitHub Stats"
+  />
 </p>
 
 <p align="center">
-  <a href="https://github.com/AREKKUZZERA?tab=repositories">
-    <img
-      src="https://img.shields.io/badge/Repositories-6ea8ff?style=for-the-badge&logo=github&logoColor=white"
-      alt="Repositories"
-    />
-  </a>
+  <img
+    width="420"
+    src="https://YOUR-VERCEL-DOMAIN.vercel.app/api/top-langs/?username=AREKKUZZERA&layout=compact&theme=tokyonight&hide_border=true&title_color=6ea8ff"
+    alt="Top Languages"
+  />
 </p>
 
-<br>
+<br />
 
 <h2 align="center">Connect</h2>
 
 <p align="center">
   <a href="https://www.youtube.com/@arekkuzzera">
-    <img
-      src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"
-      alt="YouTube"
-    />
+    <b>YouTube</b>
   </a>
+  &nbsp;&middot;&nbsp;
   <a href="https://soundcloud.com/arekkuzzera">
-    <img
-      src="https://img.shields.io/badge/SoundCloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white"
-      alt="SoundCloud"
-    />
+    <b>SoundCloud</b>
   </a>
+  &nbsp;&middot;&nbsp;
   <a href="https://t.me/perexodddu">
-    <img
-      src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"
-      alt="Telegram"
-    />
+    <b>Telegram</b>
   </a>
 </p>
